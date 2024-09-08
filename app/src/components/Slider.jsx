@@ -34,7 +34,6 @@ const Slider = () => {
         );
     };
 
-    // Handles the previous slide logic
     const handlePrev = () => {
         setActiveSlide((prevSlide) =>
             prevSlide === 0 ? banners.length - 1 : prevSlide - 1
