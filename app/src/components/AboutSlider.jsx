@@ -32,7 +32,7 @@ const AboutSlider = () => {
  
     const calculateSlidesPerView = () => {
         if (typeof window !== "undefined") {
-            if (window.innerWidth >= 1024) return 3; // Large screens
+            if (window.innerWidth >= 1024) return 3; 
             if (window.innerWidth >= 768) return 2; 
             return 1; // Small screens
         }
