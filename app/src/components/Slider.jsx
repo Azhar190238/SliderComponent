@@ -27,7 +27,7 @@ const Slider = () => {
 
     const [activeSlide, setActiveSlide] = useState(0);
 
-    // Handles the next slide logic
+ 
     const handleNext = () => {
         setActiveSlide((prevSlide) =>
             prevSlide === banners.length - 1 ? 0 : prevSlide + 1
