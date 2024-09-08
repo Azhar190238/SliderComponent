@@ -99,7 +99,6 @@ const AboutSlider = () => {
                 ))}
             </div>
 
-            {/* Navigation buttons */}
             <div className="flex justify-center gap-4 p-5">
                 <button
                     onClick={handlePrev}
