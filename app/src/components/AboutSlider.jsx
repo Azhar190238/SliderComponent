@@ -29,7 +29,7 @@ const AboutSlider = () => {
 
     const totalSlides = banners.length;
 
-    // Function to calculate slides per view based on window size
+ 
     const calculateSlidesPerView = () => {
         if (typeof window !== "undefined") {
             if (window.innerWidth >= 1024) return 3; // Large screens
@@ -38,7 +38,7 @@ const AboutSlider = () => {
         }
     };
 
-    // Update slidesPerView whenever the window resizes
+ 
     useEffect(() => {
         const handleResize = () => {
             setSlidesPerView(calculateSlidesPerView());
@@ -70,7 +70,7 @@ const AboutSlider = () => {
         );
     };
 
-    
+
 
     return (
         <div className="w-full mx-auto max-w-[1320px] overflow-hidden my-40">
