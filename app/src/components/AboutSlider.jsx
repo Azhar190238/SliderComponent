@@ -46,7 +46,7 @@ const AboutSlider = () => {
 
         window.addEventListener("resize", handleResize);
 
-        // Initial calculation
+      
         setSlidesPerView(calculateSlidesPerView());
 
         return () => window.removeEventListener("resize", handleResize);
