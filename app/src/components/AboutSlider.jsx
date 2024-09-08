@@ -61,7 +61,6 @@ const AboutSlider = () => {
         );
     };
 
-    // Handle previous slide logic
     const handlePrev = () => {
         setActiveSlide((prevSlide) =>
             prevSlide === 0
