@@ -77,7 +77,7 @@ const AboutSlider = () => {
                 className="flex transition-transform duration-700"
                 style={{
                     transform: `translateX(-${activeSlide * (100 / slidesPerView)}%)`,
-                    gap: slidesPerView === 1? "0px" : "24px", // Adjust gap for small screens
+                    gap: slidesPerView === 1? "0px" : "24px", 
                 }}
             >
                 {banners.map((banner, index) => (
