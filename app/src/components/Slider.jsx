@@ -75,7 +75,7 @@ const Slider = () => {
                 ))}
             </div>
 
-            {/* Navigation buttons */}
+         
             <div className="relative bottom-24 flex justify-end gap-4 p-5">
                 <button
                     onClick={handlePrev}
