@@ -52,7 +52,7 @@ const AboutSlider = () => {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    // Handle next slide logic
+
     const handleNext = () => {
         setActiveSlide((prevSlide) =>
             prevSlide === totalSlides - slidesPerView
